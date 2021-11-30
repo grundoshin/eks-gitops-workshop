@@ -4,9 +4,9 @@ metadata:
   name: nginx
 spec:
   releaseName: nginx-ingress-controller
-  targetNamespace: testsets
   chart:
     spec:
+      targetNamespace: testsets
       chart: nginx-ingress-controller
       sourceRef:
         kind: HelmRepository
